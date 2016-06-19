@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<noSqlDb>
+    <keyType>Int32</keyType>
+    <payloadType>ListOfStrings</payloadType>
+    <elements>
+        <key id="DBElement">
+            <value>
+                <name>DBElement</name>
+                <desc>Package for storing a single DB element
+                
+                </desc>
+                <time>10/6/2015 15:22:08
+                
+                </time>
+                <children>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>DBElement Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="DBElementTest">
+            <value>
+                <name>DBElementTest Package</name>
+                <desc>Package for testing DB element package</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBExtensions</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>DBElementTest Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="DBEngine">
+            <value>
+                <name>DBEngine Package</name>
+                <desc>Package for storing all DB elements with their keys</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>DBEngine Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="DBEngineTest">
+            <value>
+                <name>DBEngineTest Package</name>
+                <desc>Package for testing DBEngine</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>DBExtensions</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>DBEngineTest Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="DBExtensions">
+            <value>
+                <name>DBExtensions Package</name>
+                <desc>Support package for DBEngine and DBElement</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>DBExtensions Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="DBFactory">
+            <value>
+                <name>DBFactory Package</name>
+                <desc>Package for storing list of keys for compound queries</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>PayloadWrapper</item>
+					<item>DBElement</item>
+                    <item>DBExtensions</item>
+                </children>
+                <payload>
+                    <item>DBFactory Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="Display">
+            <value>
+                <name>Display Package</name>
+                <desc>Package for formatting strings and elements</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>DBExtensions</item>
+                    <item>UtilityExtensions</item>
+                    <item>PayloadWrapper</item>
+                </children>
+                <payload>
+                    <item>Display Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="ItemEditor">
+            <value>
+                <name>ItemEditor Package</name>
+                <desc>Package for creating new DB elements</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>Display</item>
+                    <item>PayloadWrapper</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>ItemEditor Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="PayloadWrapper">
+            <name>PayloadWrapper Package</name>
+            <desc>Contains wrapper class for DBElement's payload</desc>
+            <time>10/6/2015 15:22:08</time>
+            <children>
+                <item>DBElement</item>
+                <item>DBExtensions</item>
+                <item>UtilityExtensions</item>
+            </children>
+            <payload>
+                <item>PayloadWrapper Payload</item>
+            </payload>
+        </key>
+        <key id="PersistEngine">
+            <value>
+                <name>PersistEngine Package</name>
+                <desc>Package for writing/restoring to/from XML</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>PayloadWrapper</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>PersistEngine Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="QueryProcessEngine">
+            <value>
+                <name>QueryEngine Package</name>
+                <desc>Package for querying DBEngine as well as DBFactory</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>DBFactory</item>
+                    <item>PayloadWrapper</item>
+                    <item>PersistEngine</item>
+                </children>
+                <payload>
+                    <item>QueryProcessEngine Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="Scheduler">
+            <value>
+                <name>Scheduler Package</name>
+                <desc>Package for saving DBEngine data to XML after a specific interval</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>PayloadWrapper</item>
+                    <item>PersistEngine</item>
+                </children>
+                <payload>
+                    <item>Scheduler Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="TestExec">
+            <value>
+                <name>TestExec Package</name>
+                <desc>Package for testing requirements of Key Value DB</desc>
+                <time>10/6/2015 15:22:08</time>
+                <children>
+                    <item>DBElement</item>
+                    <item>DBEngine</item>
+                    <item>Display</item>
+                    <item>DBFactory</item>
+                    <item>ItemEditor</item>
+                    <item>QueryProcessEngine</item>
+                    <item>QueryEngine</item>
+                    <item>Scheduler</item>
+                    <item>UtilityExtensions</item>
+                </children>
+                <payload>
+                    <item>TestExec Payload</item>
+                </payload>
+            </value>
+        </key>
+        <key id="UtilityExtensions">
+            <value>
+                <name>UtilityExtensions Package</name>
+                <desc>Utility extensions for all packages</desc>
+                <time>10/6/2015 15:22:08</time>
+                <payload>
+                    <item>UtilityExtensions Payload</item>
+                </payload>
+            </value>
+        </key>
+    </elements>
+</noSqlDb>

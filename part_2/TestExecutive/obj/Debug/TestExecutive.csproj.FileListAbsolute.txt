@@ -1,0 +1,11 @@
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\TestExecutive.exe.config
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\TestExecutive.exe
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\TestExecutive.pdb
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\Utilities.exe
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\ICommService.dll
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\Utilities.pdb
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\bin\Debug\ICommService.pdb
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\obj\Debug\TestExecutive.csprojResolveAssemblyReference.cache
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\obj\Debug\TestExecutive.exe
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\CommPrototype\TestExecutive\obj\Debug\TestExecutive.pdb
+C:\Users\Saurabh\Dropbox\syracuse\SMA\workspace\Project4SMA\TestExecutive\bin\Debug\TestExecutive.exe.config
